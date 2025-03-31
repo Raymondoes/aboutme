@@ -20,31 +20,18 @@
 
         <!-- SECTION 1: Introduction -->
         <section class="relative text-center mb-8 md:mb-16">
-          <!-- Blurred text behind heading (desktop only) -->
-          <span
-            class="hidden md:block absolute inset-x-0 h-[80px] mt-[4px] top-4 text-6xl font-extrabold text-transparent bg-gradient-to-r from-blue-500 via-teal-500 to-blue-500 bg-clip-text blur-xl"
-          >
-            hi I'm Raymond
-          </span>
           <!-- Main heading (visible on all screens) -->
           <h1
-            class="text-3xl h-[80px] md:text-6xl font-bold text-transparent bg-gradient-to-r from-blue-500 via-teal-500 to-blue-500 bg-clip-text"
+            class="text-3xl h-[80px] md:text-6xl font-bold text-teal-400 drop-shadow-[0px_0px_26px]"
           >
-            Hi, I'm Raymond
+            Hi, I'm <span class="bg-gradient-to-r bg-clip-text text-transparent from-blue-400 via-teal-300 to-blue-400">Raymond</span>
           </h1>
         </section>
 
         <!-- SECTION 2: Description -->
         <section class="relative text-center mb-8 md:mb-16">
-          <!-- Blurred text behind paragraph (desktop only) -->
-          <span
-            class="hidden mt-[26px] md:block absolute inset-x-0 -top-6 md:text-xl text-sky-300 blur-xl select-none font-bold"
-          >
-            I am a Western Indonesian Programmer who lives in North Sumatra. <br />
-            I am interested in tech topics, and alot other topics that are based on Operating Systems.
-          </span>
           <!-- Normal text for mobile & desktop -->
-          <p class="text-sky-300 text-base md:text-xl">
+          <p class="text-sky-300 text-base md:text-xl drop-shadow-[0px_0px_24px]">
             I am a Western Indonesian Programmer who lives in North Sumatra. <br />
             I am interested in tech topics, and alot other topics that are based on Operating Systems.
           </p>
@@ -53,14 +40,8 @@
         <!-- SECTION 3: Social Media -->
         <section class="relative mb-8 md:mb-16">
           <div class="text-center">
-            <!-- Blurred heading (desktop only) -->
-            <span
-              class="hidden md:block mt-[20px] absolute inset-x-0 -top-6 text-6xl text-blue-700 font-extrabold blur-xl"
-            >
-              Social Media
-            </span>
             <!-- Visible heading -->
-            <h2 class="text-blue-600 text-3xl md:text-6xl font-semibold">
+            <h2 class="text-blue-600 text-3xl md:text-6xl font-semibold drop-shadow-[0px_0px_26px]">
               Social Media
             </h2>
           </div>
@@ -94,16 +75,10 @@
         </section>
 
         <!-- SECTION 4: Frontend Projects -->
-        <section class="relative mb-8 md:mb-16">
+        <section class="relative gap-9 mb-8 md:mb-16">
           <div class="text-center">
-            <!-- Blurred heading (desktop only) -->
-            <span
-              class="hidden mt-[20px] md:block absolute inset-x-0 -top-6 text-4xl text-green-300 font-extrabold blur-xl"
-            >
-              My Frontend Projects (Old to New)
-            </span>
             <!-- Visible heading -->
-            <h2 class="text-green-300 text-2xl md:text-4xl font-semibold">
+            <h2 class="text-green-300 drop-shadow-[0px_0px_26px] text-2xl md:text-4xl font-semibold">
               My Frontend Projects (Old to New)
             </h2>
           </div>
@@ -136,7 +111,7 @@
             <!-- Project 2 -->
             <a href="https://raymondoes.github.io/berdinhtml/" class="w-full md:w-auto">
               <div
-                class="bg-orange-950 rounded-[60px] shadow-2xl shadow-orange-500 transition duration-300
+                class="md:mt-[10px] bg-orange-950 rounded-[60px] shadow-2xl shadow-orange-500 transition duration-300
                        delay-100 ease-in-out hover:-translate-y-2 hover:bg-orange-700 p-4
                        max-w-md mx-auto md:max-w-none md:h-[500px] md:w-[600px]"
               >
@@ -158,20 +133,65 @@
               </div>
             </a>
           </div>
+          <div class="flex flex-col md:flex-row items-center justify-center gap-4 mt-8">
+          <!-- Project 3 -->
+          <a href="https://raymondoes.github.io/coffeoffer/" class="w-full md:w-auto">
+            <div
+              class="mt-[20px] bg-teal-700 rounded-[60px] shadow-2xl shadow-teal-700 transition duration-300
+                     delay-100 ease-in-out hover:-translate-y-2 hover:bg-teal-500 p-4
+                     max-w-md mx-auto md:max-w-none md:h-[500px] md:w-[600px]"
+            >
+              <img
+                src="content/coffee.png"
+                alt="Coffee Offer"
+                class="rounded-[60px] w-full mb-4"
+              />
+              <h3 class="text-white font-medium text-center text-xl md:text-2xl">
+                Coffee Offer
+              </h3>
+              <p class="text-white font-medium text-center text-xl">
+                I decided to build a coffee offer app after building some with Java, C, C++, and Python.
+                <br />
+                <span class="text-sky-300 font-semibold text-xl">
+                  March 15 2025
+                </span>
+              </p>
+            </div>
+          </a>
+          <!-- Project 4 -->
+          <a href="https://raymondoes.github.io/free-lobux/" class="w-full md:w-auto">
+              <div
+                class="mt-[20px] bg-emerald-700 rounded-[60px] shadow-2xl shadow-emerald-700 transition duration-300
+                       delay-100 ease-in-out hover:-translate-y-2 hover:bg-emerald-500 p-4
+                       max-w-md mx-auto md:max-w-none md:h-[500px] md:w-[600px]"
+              >
+                <img
+                  src="content/robux.png"
+                  alt="Robux Scam Site"
+                  class="rounded-[60px] w-full mb-4"
+                />
+                <h3 class="text-white font-medium text-center text-xl md:text-2xl">
+                  Robux Scam Site
+                </h3>
+                <p class="text-white font-medium text-center text-xl">
+                  At this moment i thought of making fun of Roblox's Robux scam websites, so i decide to create a joke one myself.
+                  <br />
+                  <span class="text-sky-300 font-semibold text-xl">
+                    December 28 2024
+                  </span>
+              </p>
+            </div>
+          </a>
+        </div>
         </section>
 
         <!-- SECTION 5: Where I post my Code -->
         <section class="relative mb-8 md:mb-16">
           <div class="text-center">
             <!-- Blurred heading (desktop only) -->
-            <span
-              class="hidden md:block absolute inset-x-0 -top-6 text-6xl text-purple-300 mt-[20px] font-extrabold blur-xl"
-            >
-              Where i post my <span class="text-blue-300">Code</span>
-            </span>
             <!-- Visible heading -->
-            <h2 class="text-purple-300 text-3xl md:text-6xl font-bold">
-              Where i post my <span class="text-blue-400">Code</span>
+            <h2 class="text-purple-300 text-3xl drop-shadow-[0px_0px_26px] md:text-6xl font-bold">
+              Where i post my <span class="text-blue-400 drop-shadow-[0px_0px_26px]">Code</span>
             </h2>
           </div>
           <div class="flex justify-center mt-8">
@@ -189,14 +209,8 @@
         <!-- SECTION 6: More -->
         <section class="relative mb-8 md:mb-16 text-center">
           <div class="text-center">
-            <!-- Blurred heading (desktop only) -->
-            <span
-              class="hidden mt-[21px] md:block absolute inset-x-0 -top-6 text-6xl text-sky-500 font-extrabold blur-xl"
-            >
-              More
-            </span>
             <!-- Visible heading -->
-            <h2 class="text-sky-500 text-3xl md:text-6xl font-bold mt-4 md:mt-8">
+            <h2 class="text-sky-500 text-3xl md:text-6xl font-bold mt-4 md:mt-8 drop-shadow-[0px_0px_26px]">
               More
             </h2>
           </div>
